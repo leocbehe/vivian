@@ -142,7 +142,7 @@ def import_file_button():
     
     if uploaded_file is not None and uploaded_file.name != st.session_state.last_uploaded_file:
         create_file(uploaded_file.name, uploaded_file.getvalue(), uploaded_file.size)
-        st.success(f"File '{uploaded_file.name}' uploaded successfully!")
+        print(f"File '{uploaded_file.name}' uploaded successfully!")
         st.session_state.last_uploaded_file = uploaded_file.name
     
     if st.button("Close"):

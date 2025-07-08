@@ -1,0 +1,16 @@
+# Ignore compiled files
+*.class
+*.exe
+
+# Ignore temp dirs
+tmp_text_files/
+tmp_files/
+tmp_audio/
+**/__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
